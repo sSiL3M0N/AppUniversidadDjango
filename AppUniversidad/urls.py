@@ -16,7 +16,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path,include
 from Aplicaciones.Academico.views import *
-
+#Esto es un comentario
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('Aplicaciones.Academico.urls'))
